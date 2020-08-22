@@ -55,12 +55,29 @@
       align: center;
   }
   div h1 {
-    color: red;
-    font-family: sans-serif;
 
+    font-family: sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: linear-gradient(90deg, blue, black, red);
+    background-repeat: no repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.01);
+
+  }
+  @keyframes animate{
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
   }
   div h2 {
     text-align: left;
+
   }
   video {
     align: center;
@@ -142,10 +159,12 @@ header{
 <br>
 <hr>
 <br>
-<br><br><br><br><br><br>
+<br><br>
 <div>
     <u>
+    <b>
 <h1>Shree Balaji Enterprises</h1>
+</b>
 </u>
 </div>
 <div>
@@ -168,11 +187,11 @@ header{
 <h1>Our products</h1>
 <div class="vertical-menu">
 <ul>
-<div><h2 style="color: darkorange;"><b><marquee>Products for two wheelers.</marquee></b> <li>click here:<a href="two wheeler.html">For two wheelers vehical</h2></div><img src="IMAGE/abike.jpg" style="width: 30%"></a></li><hr>
-<div><h2 style="color: darkorange;"><b><marquee>Products for passenger vehical.</marquee></b> <li>click here:<a href="car.html">For passenger vehical</h2></div><img src="IMAGE/acar.jpg" style="width: 30%"></a></li><hr>
-<div><h2 style="color: darkorange;"><b><marquee>Products for commercial vehical.</marquee></b><li>click here:<a href="truck.html">For commercial vehical</h2></div><img src="IMAGE/atruck.jpg" style="width: 30%"></a></li><hr>
-<div><h2 style="color: darkorange;"><b><marquee>Products for three wheeler vehical. </marquee></b><li>click here:<a href="auto.html">For three wheeler vehical</h2></div><img src="IMAGE/aauto.jpg" style="width: 30%"></a></li><hr>
-<div><h2 style="color: darkorange;"><b><marquee>Products for Tractor.</marquee></b> <li>click here:<a href="tractor.html">For tractor</h2></div><img src="IMAGE/atractor.jpg" style="width: 30%"></a></li><hr>
+<div><h2 style="color: black;"><b><marquee>Products for two wheelers.</marquee></b> <li>click here:<a href="two wheeler.html">For two wheelers vehical</h2></div><img src="IMAGE/abike.jpg" style="width: 30%"></a></li><hr>
+<div><h2 style="color: black;"><b><marquee>Products for passenger vehical.</marquee></b> <li>click here:<a href="car.html">For passenger vehical</h2></div><img src="IMAGE/acar.jpg" style="width: 30%"></a></li><hr>
+<div><h2 style="color: black;"><b><marquee>Products for commercial vehical.</marquee></b><li>click here:<a href="truck.html">For commercial vehical</h2></div><img src="IMAGE/atruck.jpg" style="width: 30%"></a></li><hr>
+<div><h2 style="color: black;"><b><marquee>Products for three wheeler vehical. </marquee></b><li>click here:<a href="auto.html">For three wheeler vehical</h2></div><img src="IMAGE/aauto.jpg" style="width: 30%"></a></li><hr>
+<div><h2 style="color: black;"><b><marquee>Products for Tractor.</marquee></b> <li>click here:<a href="tractor.html">For tractor</h2></div><img src="IMAGE/atractor.jpg" style="width: 30%"></a></li><hr>
 </ul>
 </div>
 <br>
