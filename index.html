@@ -160,12 +160,34 @@ header{
 }
 .middle {
   position: relative;
-  margin-top: 30%;
+  margin-top: 50%;
   left: 50%;
 
   transform: translate(-50%, -50%)
 }
-
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 500px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid white;
+  margin-left: 50px;
+  cursor: pointer;
+}
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+.slides {
+  width: 500%;
+  height: 100;
+  display: flex;
+}
 
 
 
@@ -185,6 +207,7 @@ header{
 <h1>Shree Balaji Enterprises</h1>
 </b>
 </u>
+<br><br>
 </div>
 <div class="slidershow middle">
   <input type="radio" name="r" id="r1" checked>
