@@ -152,6 +152,23 @@ header{
 
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
+.slidershow {
+  width: 1000px;
+  height: 800px;
+  overflow: hidden;
+
+}
+.middle {
+  position: relative;
+  margin-top: 30%;
+  left: 50%;
+
+  transform: translate(-50%, -50%)
+}
+
+
+
+
 
 
 
@@ -169,9 +186,34 @@ header{
 </b>
 </u>
 </div>
-<div>
-  <video autoplay loop src="IMAGE/slide.mp4" style= "width: 80%"></video>
+<div class="slidershow middle">
+  <input type="radio" name="r" id="r1" checked>
+  <input type="radio" name="r" id="r2">
+  <input type="radio" name="r" id="r3">
+  <input type="radio" name="r" id="r4">
+<div class="slides">
+  <div class="slide">
+    <img src="IMAGE/acar.jpg">
+  </div>
+  <div class="slide">
+    <img src="IMAGE/abike.jpg">
+  </div>
+  <div class="slide">
+    <img src="IMAGE/atractor.jpg">
+  </div>
+  <div class="slide">
+    <img src="IMAGE/atruck.jpg">
+  </div>
+
 </div>
+<div class="navigation">
+  <label for="r1" class="bar"></label>
+  <label for="r2" class="bar"></label>
+  <label for="r3" class="bar"></label>
+  <label for="r4" class="bar"></label>
+</div>
+</div>
+
 
 <h2>Lubricants, Bearings, Auto spare parts of best quality with better price are available here</h2>
 <u>
